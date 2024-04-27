@@ -1,0 +1,17 @@
+{
+  "name": "data-fetcher",
+  "version": "1.0.0",
+  "description": "The Data Fetcher project is a Node.js application designed to fetch flat files and populate a MongoDB database. It provides a structured and modular approach to efficiently handle data ingestion from various flat file formats into a MongoDB database.",
+  "main": "populateDb",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Igolo",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "exceljs": "^4.4.0",
+    "fs-extra": "^11.2.0",
+    "mongoose": "^8.3.2"
+  }
+}
